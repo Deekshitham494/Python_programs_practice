@@ -46,3 +46,13 @@ rem_a_b = a%b
 print("The reminder when a is divided by b is {}".format(rem_a_b))
 
 
+"""
+Python Data Types:
+Mutable:  Any changes can be made to a existing one
+        1. List
+        2. Dictionary
+        3. Sets
+Immutable:  Changes can not be made to existing one
+        1. String
+        2. Tuple
+"""
