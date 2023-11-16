@@ -70,3 +70,52 @@ lst_y.extend([["3", "4"]])
 print("the value of lst_y after extending list is {}".format(lst_y))
 
 
+lst_a = ["1", "2", "3", "a"]
+lst_a[3] = "4"
+print("The list value after changing is {}".format(lst_a))
+
+lst_b = ["a", "b", "c"]
+lst_b.extend(["d","e"])
+print(lst_b)
+
+# Item Reversing in list
+str_a = "Welcome class"    #  output:    "emocleW ssalc"
+str_a_lst = str_a.split(" ")
+print("The list after splitting the string is {}".format(str_a_lst))
+# lst_ind0 = str_a_lst[0]
+# print(lst_ind0)
+# rev_ind0 = lst_ind0[::-1]
+# print(rev_ind0)
+# str_a_lst[0] = rev_ind0
+# print(str_a_lst)
+str_a_lst[0]= str_a_lst[0][::-1]
+str_a_lst[1] = str_a_lst[1][::-1]
+print(str_a_lst)
+str_a_rev = " ".join(str_a_lst)
+print("the value after reversing items is {}".format(str_a_rev))
+
+lst_x = [1, 2, ["a", "b", "python"], 3, 4]
+lst_x[2][2] = lst_x[2][2][::-1]
+print(lst_x)
+
+lst_z = ["a", "b", ["john", "class", "Alex"], 4, 5, 7] # outpt = ["a", "b", ["john", "ssalc", "Alex"], 4, 5, 7]
+
+# deleting methods
+
+# clear - it clears all the elements in the lists
+lsta = [1, 2, 3]
+lsta.clear()
+print("List after clearing is {}".format(lsta))
+
+# pop - it deletes last index value
+lstb = ["a", "b", "c", "d"]
+lstb.pop()
+print("The list after pop is {}".format(lstb))
+lstb.pop()
+print("The list after pop is {}".format(lstb))
+
+# remove - we can specify which item or element to be deleted from list
+
+lstc = ["John", "Bob", "Alex", "xyz"]
+lstc.remove("Bob")
+print("The value after removing Bob from list is {}".format(lstc))

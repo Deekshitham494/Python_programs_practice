@@ -154,3 +154,19 @@ print("the string is starting with i is {}".format(str_a.startswith("i")))
 print("the string is ending with o is {}".format(str_a.endswith("o")))
 print("The string is ending with h is {}".format(str_a.endswith("h")))
 
+# split
+
+str_a = "welcome to class"
+str_a_split = str_a.split(" ")
+print("The value of string after splitting is {}".format(str_a_split))
+print("The type after splitting string is {}".format(type(str_a_split)))
+
+# join
+
+str_b = " ".join(str_a_split)
+print("The value after joining list of elements is {}".format(str_b))
+
+str_c = "John. Welcome!"
+str_c_spl = str_c.split(".")
+print("The value after splitting strong with . is {}".format(str_c_spl))
+
