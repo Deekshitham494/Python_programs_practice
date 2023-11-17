@@ -119,3 +119,46 @@ print("The list after pop is {}".format(lstb))
 lstc = ["John", "Bob", "Alex", "xyz"]
 lstc.remove("Bob")
 print("The value after removing Bob from list is {}".format(lstc))
+
+# reverse
+lstd = [1, 2, 3, 4]
+lstd.reverse()
+print("The list after reversing is {}".format(lstd))
+
+# insert and index
+lstx = ["a", "b", "c", "d", "e"]
+ind_val = lstx.index("b")
+print("The index value of b is {}".format(ind_val))
+
+lstx.insert(1,"x")
+print("The list after inserting is {}".format(lstx))
+lstx.insert(4,"y")
+print("The list after inserting y is {}".format(lstx))
+
+# sort, max, min
+lstz = [3, 2, 6, 1, 5, 4]
+lstz.sort()
+print("The list after sorting is {}".format(lstz))
+
+max_val = lstz[-1]
+print("the one way of getting maximum value {}".format(max_val))
+min_val = lstz[0]
+print("the one way of getting minimum value {}".format(min_val))
+sec_max_val = lstz[-2]
+print("The second highest value is {}".format(sec_max_val))
+
+lstc = [30, 10, 50, 100, 60]
+lstc_max = max(lstc)
+print("the oter way getting maximum value is {}".format(lstc_max))
+lstc_min = min(lstc)
+print("the other way of getting maximum value is {}".format(lstc_min))
+
+lstm = ["a", "b", "c", "a", "d"]
+cnt_a = lstm.count("a")
+print("The count of a in lstm is {}".format(cnt_a))
+cnt_c = lstm.count("c")
+print("the count of c in lstm is {}".format(cnt_c))
+
+
+
+

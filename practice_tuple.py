@@ -51,3 +51,12 @@ ind2_tpl_a = tpl_a[2]
 print("Second element of tuple a is {}".format(ind2_tpl_a))
 ind3_tpl_a = tpl_a[3]
 print("Third element of tuple a is {}".format(ind3_tpl_a))
+
+# index
+tpl_b = ("John", "Alex", "Bob", "xyz")
+ind_bob = tpl_b.index("Bob")
+print("The index value of bob is {}".format(ind_bob))
+
+# count
+cnt_john = tpl_b.count("John")
+print("The count of John in tuple b is {}".format(cnt_john))
