@@ -201,3 +201,20 @@ i = 5
     90>78
     lst_c = [10, 12, 23, 50, 56, 78, 90]
 """
+
+# factorial
+n= int(input("Enter the value: "))
+factorial = 1
+# 0 to 5  n-0*n-1*n-2*n-3*n-4*n-5
+for i in range(n):
+    factorial = factorial*(n-i)
+print("The factorial of {} is {}".format(n, factorial))
+
+# Remove duplicates without using inbuilt functions
+
+# lst_b = [60, 90, 70, 40, 60, 30, 40, 60, 10]
+# res = []
+# for i in lst_b:
+#     if i not in res:
+#         res.append(i)
+# print("T")

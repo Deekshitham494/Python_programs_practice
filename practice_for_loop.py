@@ -143,8 +143,65 @@ print("the value after reversing string is {}".format(rev_str))
 """
 
 
+# list all keys and values of dictionary
+dict_x = {"a": 1, "b": 2, "c": 3, "d": 4, "e": 5}
+keys=[]
+values = []
+for key, val in dict_x.items():
+    keys.append(key)
+    values.append(val)
+print("The keys are {} and values are {}".format(keys, values))
 
 
+lst_a = ["name", "age", "salary"]
+lst_b = ["John", 27, 50000]
+dict_y = dict()
+if len(lst_b)==len(lst_a):
+    for i in range(len(lst_b)):
+        dict_y[lst_a[i]] = lst_b[i]
+print("The dictionary out of lists is {}".format(dict_y))
+
+
+# count characters in a string
+str_a = "John is brave and topper of class"
+dict_cnt = {i: str_a.count(i) for i in str_a}
+print("The count of characters in string is {}".format(dict_cnt))
+# print only the repeated characters count
+dict_rep = {i: str_a.count(i) for i in str_a if str_a.count(i)>1}
+print("The repeated characters are {}".format(dict_rep))
+
+"""
+n= 5
+output
+*
+**
+***
+****
+*****
+"""
+n= 5
+lst = []
+for i in range(1, n+1):
+    lst.append("*"*i)
+print(lst)
+print("\n".join(lst))
+
+
+"""
+n= 5
+output
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+"""
+
+# find prime numbers from 1 to 20
 
 
 
